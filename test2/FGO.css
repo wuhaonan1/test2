@@ -1,0 +1,77 @@
+body,
+html,
+table {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  min-width: 780px;
+}
+table{
+    border-spacing:0;
+}
+/*头部*/
+.header {
+  background-color: #CC9900;
+  width: 100%;
+  text-align: center;
+  height: 125px;
+}
+.header img {
+  width: 80px;
+  vertical-align: text-bottom;
+}
+.header-title {
+  color: #99CC33;
+  font-size: 60px;
+  font-family: "宋体";
+  font-weight: bold;
+}
+/*左侧列表*/
+.FGO-list {
+  width: 300px;
+  float: left;
+  height: 100%;
+  padding: 0;
+  background-color: #CCCCFF;
+}
+.FGO-list ul {
+  padding-left: 50px;
+  line-height: 30px;
+}
+
+.FGO-list ul li a {
+  font-size: 35px;
+  font-family: "宋体";
+  font-weight: bold;
+}
+.no-line {
+    text-decoration: none;
+    color: black;
+  }
+/*右侧内容*/
+.FGO-content{
+    padding: 0;
+}
+.FGO-content p {
+  font-size: 60px;
+  font-family: "宋体";
+  font-weight: bolder;
+}
+.FGO-content img {
+  width: 125%;
+  padding: 5px 10px;
+}
+/*底部*/
+.buttom {
+  background-color: #33FFFF4f;
+  width: 100%;
+  height: 40px;
+  text-align: center;
+}
+.buttom span {
+  color: #99CC33;
+  font-family: "宋体";
+  font-weight: bold;
+}
+
